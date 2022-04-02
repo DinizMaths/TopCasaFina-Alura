@@ -1,0 +1,54 @@
+.topCasaFina-banner {
+  color: #ffffff;
+  background-color: rgba(25, 26, 27, 0.7);
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+#paineis-sobre {
+  margin-top: 20px;
+}
+
+#depoimento-clientes {
+  background-color: #0275d8;
+  margin-bottom: 0;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container ~.container {
+  margin-top: 40px;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  margin-bottom: 20px;
+  background-image: url(img/castelo.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+}
+
+footer {
+  background-color: #252627;
+  color: #ffffff;
+  bottom: 0;
+  padding: 20px 0;
+  width: 100%;
+  max-width: none !important;
+}
+
+footer address:last-child {
+  margin-bottom: 0;
+}
+
